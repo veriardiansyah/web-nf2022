@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style> 
+  </style>
+  <style>
+    .navbar {
+      background-color: white;
+      border-style: solid;
+      width: auto;
+    }
+
+    .ul-navbar {
+      display: flex;
+      list-style-type: none;
+      gap: 150px;
+    }
+
+    li {
+      padding: 1rem 1rem;
+    }
+
+    .content {
+      display: flex;
+    }
+
+    .gambar {
+      padding: 40px 5px 5px 5px;
+    }
+
+    img {
+      border-radius: 25px;
+    }
+
+    .form {
+      padding: 50px 10px 10px 130px;
+    }
+  </style>
+ 
+
+    </table>
+    <div class="navbar">
+      <ul class="ul-navbar">
+        <li>
+          <a>Home |</a>
+        </li>
+        <li>
+          <a>Generate link |</a>
+        </li>
+        <li>
+          <a>Transaction History |</a>
+        </li>
+        <li>
+          <a>Policy |</a>
+        </li>
+        <li>
+          <a>Logout</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="gambar">
+        <img
+          src="assets/Nike.jpg"
+          alt=""
+          width="200"
+          height="240"
+        />
+        <tr>
+          <input style="background-color: white;" type="submit" value="upload picture">
+        </tr>
+      </div>
+      <div class="form">
+        <table>
+          <tr>
+            <td><label for="title here">Title Here</label></td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="title here"
+                placeholder="NIKE AIR MAX 97"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="description">Description</label></td>
+            <td>
+              :
+              <textarea cols="25" rows="10"
+                type="text"
+                id="description"
+                placeholder="Year :  2018              Model :                  Conditional : Mint      "
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="account number">Account Number</label></td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="account number"
+                placeholder="123-456-789-0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Bank">Bank</label></td>
+            <td>
+              :
+              <select name="Bank" id="id_Bank" size="1">
+                <option>BTN</option>
+                <option>BNI</option>
+                <option>MANDIRI</option>
+                <option>BRI</option>
+                <option selected>BSI</option>
+                <Option>CIMB</Option>
+                <OPtion>BCA</OPtion>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="account holder">Account Holder</label></td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="account holder"
+                placeholder="Name Here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Transaction">Transaction</label></td>
+            <td>: <select id="" name="">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color: green">
+              * if the transacation is for 3 person choose from the drop-down
+              list
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color: green">
+              <input type="checkbox" id="Red Sauce" checked="" />
+              <label for="white-sauce">Send to mobile phone</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td style="color: green">
+              <input type="checkbox" id="Red Sauce" checked="" />
+              <label for="white-sauce">Send to Email</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Send to mobile phone">Send to mobile phone</label>
+            </td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="Send to mobile phone"
+                placeholder="1234567890, 1234567891"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Send to Email</label></td>
+            <td>
+              :
+              <input
+                type="email"
+                required
+                id="email"
+                placeholder="ardiansyahveri12@gmail.com"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <a href="pembayaran.html"
+                ><input style="background-color: green;" type="submit" value="Generate Nabr Link"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
